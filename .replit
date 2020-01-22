@@ -1,0 +1,2 @@
+language = "C"
+run = "rm a.out 2>/dev/null; clang -Wall -Wextra -Wno-sign-compare main.cpp; ./a.out"
